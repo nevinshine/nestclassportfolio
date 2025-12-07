@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nevin Shine — Portfolio</title>
+    <meta name="theme-color" content="#00bcd4">
+    <style>@import url('style.css');
+    </style>
+</head>
+<body>
+    <header class="site-header">
+        <nav class="nav container">
+            <a class="logo" href="#">
+                <img src="https://media.istockphoto.com/id/1682296067/photo/happy-studio-portrait-or-professional-man-real-estate-agent-or-asian-businessman-smile-for.jpg?s=612x612&w=0&k=20&c=9zbG2-9fl741fbTWw5fNgcEEe4ll-JegrGlQQ6m54rg=" 
+                     alt="Nevin"
+                     onerror="this.src='https://placehold.co/100x100?text=NS'">
+                <div>
+                    <h1>Nevin Shine</h1>
+                    <div class="muted">Student • Developer</div>
+                </div>
+            </a>
+            <div class="nav-links" role="navigation" aria-label="Main navigation">
+                <a href="#projects">Projects</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="extra.html">Blog</a>
+                <a href="#contact">Contact</a>
+                <a class="cta" href="#contact">Get in touch</a>
+            </div>
+            <button class="menu-toggle" aria-expanded="false" aria-controls="nav">☰</button>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="hero">
+            <div>
+                <h2>Hi, I'm Nevin.</h2>
+                <p>I build delightful web experiences and practical ML tools. Passionate about solving problems through code.</p>
+            </div>
+        </section>
+
+        <section id="projects">
+            <div class="section-title">
+                <h2>Projects</h2>
+            </div>
+            <div class="project-list">
+                <article class="card">
+                    <h4>Project Alpha</h4>
+                    <p class="muted">BMI calculator and diet planner. Built with React and Node.js.</p>
+                    <small class="muted" style="opacity: 0.7">May 1, 2024</small>
+                </article>
+                <article class="card">
+                    <h4>Project Beta</h4>
+                    <p class="muted">Streamlit app with DL-based pneumonia detection and Grad-CAM explainability.</p>
+                    <small class="muted" style="opacity: 0.7">May 5, 2024</small>
+                </article>
+                <article class="card">
+                    <h4>Project Gamma</h4>
+                    <p class="muted">Unity drone detection & automation prototype using C# and Computer Vision.</p>
+                    <small class="muted" style="opacity: 0.7">May 10, 2024</small>
+                </article>
+                <article class="card">
+                    <h4>Project Delta</h4>
+                    <p class="muted">Brain-controlled devices concept. An exploration into BCI interfaces.</p>
+                    <small class="muted" style="opacity: 0.7">May 15, 2024</small>
+                </article>
+            </div>
+        </section>
+<br>
+        <section id="about" class="card">
+            <div class="section-title">
+                <h2>About Me</h2>
+            </div>
+            <p class="muted">I am a passionate developer with experience in building web and mobile applications. Currently pursuing my BSc in Computer Science at AJCE. I enjoy learning new technologies, improving my craft, and contributing to open source projects when I can.</p>
+        </section>
+
+        <section id="skills" class="card">
+            <div class="section-title">
+                <h2>Skills</h2>
+            </div>
+            <ul>
+                <li>HTML & CSS</li>
+                <li>JavaScript & React</li>
+                <li>Node.js</li>
+                <li>Python & ML</li>
+                <li>UI/UX Design</li>
+                <li>MongoDB</li>
+                <li>Git & GitHub</li>
+                <li>Unity</li>
+            </ul>
+        </section>
+
+        <section id="education" class="card">
+            <div class="section-title">
+                <h2>Education</h2>
+            </div>
+            <p class="muted"><strong>BSc in Computer Science</strong><br>AJCE (Expected Graduation: 2028)</p>
+        </section>
+
+        <section id="contact" class="card contact">
+            <div class="section-title">
+                <h2>Contact</h2>
+            </div>
+            <p class="muted">Interested in working together? Fill out the form below or reach out via email.</p>
+            <p class="muted">
+                Email: <a href="mailto:nevinshine@outlook.com">nevinshine@outlook.com</a> • 
+                Phone: +91 8113063775
+            </p>
+            
+            <div class="contact-links">
+                <a href="https://www.linkedin.com/in/nevin-shine-b403b932b">LinkedIn Profile</a>
+                <a href="https://www.github.com/nevinshine">GitHub Profile</a>
+            </div>
+
+            <form onsubmit="event.preventDefault(); alert('Message sent (demo)!');">
+                <div style="display:grid; gap:12px">
+                    <input type="text" placeholder="Your Name" aria-label="Name" required>
+                    <input type="email" placeholder="Your Email" aria-label="Email" required>
+                    <textarea rows="4" placeholder="Your Message" aria-label="Message" required></textarea>
+                    <button type="submit">Send Message</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <div>&copy; 2025 <strong>Nevin Shine</strong> — Built with care</div>
+            <div class="social-icons" aria-label="Social links">
+                <a href="https://www.linkedin.com/in/nevin-shine-b403b932b" title="LinkedIn" aria-label="LinkedIn">
+                    <!-- LinkedIn SVG -->
+                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M4.98 3.5C4.98 4.88 3.88 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5zM.5 8.5h4V24h-4zM8.5 8.5h3.84v2.08h.05c.54-1.02 1.86-2.08 3.83-2.08 4.1 0 4.86 2.7 4.86 6.21V24h-4v-7.5c0-1.79-.03-4.09-2.49-4.09-2.49 0-2.87 1.94-2.87 3.95V24h-4z"/></svg>
+                </a>
+                <a href="https://www.github.com/nevinshine" title="GitHub" aria-label="GitHub">
+                    <!-- GitHub SVG -->
+                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 .5C5.73.5.75 5.48.75 11.75c0 4.9 3.17 9.06 7.57 10.53.55.1.75-.24.75-.53 0-.26-.01-.95-.01-1.87-3.08.67-3.73-1.48-3.73-1.48-.5-1.28-1.22-1.62-1.22-1.62-.99-.68.08-.67.08-.67 1.09.08 1.66 1.12 1.66 1.12.97 1.66 2.55 1.18 3.17.9.1-.7.38-1.18.69-1.45-2.46-.28-5.05-1.23-5.05-5.48 0-1.21.43-2.2 1.12-2.98-.11-.28-.49-1.41.11-2.94 0 0 .91-.29 2.98 1.12.86-.24 1.78-.36 2.7-.36.92 0 1.84.12 2.7.36 2.07-1.41 2.98-1.12 2.98-1.12.6 1.53.22 2.66.11 2.94.69.78 1.12 1.77 1.12 2.98 0 4.26-2.6 5.19-5.08 5.46.39.34.73 1.02.73 2.06 0 1.49-.01 2.69-.01 3.05 0 .29.2.64.76.53 4.4-1.47 7.57-5.63 7.57-10.53C23.25 5.48 18.27.5 12 .5z"/></svg>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const btn = document.querySelector('.menu-toggle');
+        const nav = document.querySelector('.nav-links');
+        
+        if (btn && nav) {
+            btn.addEventListener('click', () => {
+                const expanded = btn.getAttribute('aria-expanded') === 'true';
+                btn.setAttribute('aria-expanded', String(!expanded));
+                
+                nav.classList.toggle('active');
+                
+                // Update icon content
+                btn.textContent = nav.classList.contains('active') ? '✕' : '☰';
+            });
+        }
+    </script>
+</body>
+</html>
